@@ -78,6 +78,7 @@ struct BasePRNGObject * stdlib_base_random_randi_allocate( const int nargs, ... 
 	va_list args;
 	va_start( args, nargs );
 
+	// TODO
 	if ( nargs < 1 ) {
 		prng = STDLIB_BASE_RANDOM_RANDI_DEFAULT;
 	} else {
